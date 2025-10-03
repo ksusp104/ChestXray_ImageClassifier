@@ -16,8 +16,8 @@ information about final project, amount of code, hours spent, status complete, a
 ## Artifacts
 - Project selection
 - Project plan
-- SDD
-- SRS
+- [System Design Document](readmefiles/SP-104_ALS_Images-Design.docx)
+- [System Requirements Specification](readmefiles/SP-104_ALS_Images-Requirements.docx)
 ## Development Timeline
 - Gantt Chart
 - milestones
