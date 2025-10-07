@@ -7,7 +7,7 @@ Image of headshots
 - Josh Smith
 - Elijah Merrill
 ### Documentation
-+ Noal Lane
++ Noah Lane
 + Matthew Hall
 ### Advisor & Professor
 * Sharon Perry
