@@ -1,0 +1,43 @@
+paths:
+  # path to root dataset 
+  data_root: 'D:/School Files/School Notes/Fall 2025/CS 4850/Project Dataset/archive'
+  # output locations for generated index and split files
+  index_out: 'outputs/index_table.parquet'
+  splits_out: 'outputs/splits.json'
+
+data:
+  # list of class names from the dataset
+  class_names: 
+    - Atelectasis
+    - Cardiomegaly
+    - Effusion
+    - Infiltration
+    - Mass
+    - Nodule
+    - Pneumonia
+    - Pneumothorax
+    - Consolidation
+    - Edema
+    - Emphysema
+    - Fibrosis
+    - Pleural_Thickening
+    - Hernia
+  
+  # which view positions to keep 
+  keep_views: ['PA', 'AP']
+
+  #whether to use imagenet normalization (true = for pretrained CNNs)
+  use_imagenet_norm: true
+
+model: 
+  # input size for resizing images
+  input_size: [224, 224]
+
+splits:
+  # train (70%) / validation(15%) / test ratio(15%)
+  train: 0.7
+  val: 0.15
+  test: 0.15
+
+# random seed for reproducibility
+seed: 42
