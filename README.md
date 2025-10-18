@@ -14,8 +14,8 @@ Image of headshots
 ## Final Report
 information about final project, amount of code, hours spent, status complete, and links to final report & presentation
 ## Artifacts
-- [Project Selection](readmefiles/SP-104-ALS_Images-Selection.docx)
-- [Project Plan](readmefiles/SP-104-ALS_Images-Plan.docx)
+- [Project Proposal](readmefiles/SP-104_ALS_Images-Proposal.pdf)
+- [Project Plan](readmefiles/SP-104_ALS_Images-ProjectPlan.pdf)
 - [System Design Document](readmefiles/SP-104_ALS_Images-Design.pdf)
 - [System Requirements Specification](readmefiles/SP-104_ALS_Images-Requirements.pdf)
 ## Development Timeline
