@@ -1,3 +1,4 @@
+# File serves as the pipeline executor, calling the other modules
 import yaml, pandas as pd, torch
 from torch.utils.data import DataLoader
 from src.data.indexer import build_index, filter_views
@@ -12,6 +13,7 @@ def main(cfg_path = "config.yaml"):
     keep = cfg["data"]["keep_views"]
     h, w = cfg["model"]["input_size"]
 
+    #Building the index to store the information from the csv file
     print("Building index:")
     df = build_index(root, cls)
     print(f"Images in CSV: {len(df):,}; missing paths: {df['missing'].sum():,}")
@@ -28,7 +30,7 @@ def main(cfg_path = "config.yaml"):
     df.to_parquet(cfg["paths"]["index_out"])
     save_splits_json(df, cfg["paths"]["splits_out"])
 
-    #dataloaders
+    #dataloaders for training and validation data sets
     t_train = make_transforms((h,w), cfg["data"]["use_imagenet_norm"], train=True)
     t_eval  = make_transforms((h,w), cfg["data"]["use_imagenet_norm"], train=False)
 
@@ -44,3 +46,4 @@ def main(cfg_path = "config.yaml"):
 
 if __name__ == "__main__":
     main()
+
