@@ -23,7 +23,7 @@ Information about final project, amount of code, hours spent, status complete, a
 - Milestones
 ## C-Day Files
 ## Resources
-## Set-up and Execution (As of 10/19/25)
+## Set-up and Execution (As of 10/26/25)
 In the GitHub repository, there are a total of six files that are essential to the overall functionality of the system. The files that need to be downloaded to the user’s system can be found in the “source code” folder within the repository. It is highly recommended to keep track of where these source code files are stored for easier configuration and troubleshooting.
 
 The next important component is the dataset itself, which can be found on Kaggle at the following link: https://www.kaggle.com/datasets/nih-chest-xrays/data. First-time users will likely need to create a Kaggle account to access and download the dataset. Once downloaded, the dataset will be contained in a folder named “archive.” It is recommended to store this folder in the same directory as your source code files. If that is not possible, make sure to record the exact file path for later reference.
