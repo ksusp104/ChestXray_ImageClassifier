@@ -18,6 +18,7 @@ Information about final project, amount of code, hours spent, status complete, a
 - [Project Plan](readmefiles/SP-104_ALS_Images-ProjectPlan.pdf)
 - [System Design Document](readmefiles/SP-104_ALS_Images-Design.pdf)
 - [System Requirements Specification](readmefiles/SP-104_ALS_Images-Requirements.pdf)
+- [Development Documentation](readmefiles/SP-104_ALS_Images-Development.pdf)
 ## Development Timeline
 - Gantt Chart
 - Milestones
