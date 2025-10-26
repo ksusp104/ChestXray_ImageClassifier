@@ -35,5 +35,3 @@ Additional required packages include pandas, numpy, and pyarrow, which can be in
 After all dependencies are installed, ensure that the dataset folder (archive) and source files are properly configured and that all file paths match your local directory structure. If the dataset or output folders are stored in non-default locations, update the script variables or configuration entries that reference them, such as those specifying archive/Data_Entry_2017.csv or the output directories for generated files. 
 
 To verify that everything is set up correctly, execute the script “smoke.py” by running “python smoke.py” in the terminal. This script reads the dataset metadata and generates an indexed output file named index_table.csv, and optionally index_table.parquet, inside the “outputs” directory. Successful creation of these files confirms that the dataset, file paths, and environment are properly configured, and that the system is ready for further training or evaluation.
-### Dependencies
-### All Resources
