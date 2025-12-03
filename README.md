@@ -2,10 +2,8 @@
 Active learning system for labeling medical chest x-rays to reduce manual annotation effort
 ## Team Members
 **CS 4850 - Section 02/03/04 - Fall 2025**\
-Image of headshots
 ### Development
 - Josh Smith
-  ![alt-text](https://github.com/ksusp104/ChestXray_ImageClassifier/blob/main/readmefiles/josh.jpg)
 - Elijah Merrill
 ### Documentation
 + Noah Lane
