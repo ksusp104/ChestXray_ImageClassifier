@@ -5,6 +5,7 @@ Active learning system for labeling medical chest x-rays to reduce manual annota
 Image of headshots
 ### Development
 - Josh Smith
+  ![alt-text](josh.png)
 - Elijah Merrill
 ### Documentation
 + Noah Lane
@@ -19,6 +20,7 @@ Information about final project, amount of code, hours spent, status complete, a
 - [System Design Document](readmefiles/SP-104_ALS_Images-Design.pdf)
 - [System Requirements Specification](readmefiles/SP-104_ALS_Images-Requirements.pdf)
 - [Development Documentation](readmefiles/SP-104_ALS_Images-Development.pdf)
+- [Software Test Plan and Report](readmefiles/SP-104_ALS_Images-STP-STR.pdf)
 ## Development Timeline
 - Gantt Chart
 - Milestones
