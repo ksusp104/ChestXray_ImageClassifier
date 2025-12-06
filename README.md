@@ -1,5 +1,7 @@
 # ChestXray_ImageClassifier
-Active learning system for labeling medical chest x-rays to reduce manual annotation effort
+This project develops an Active Learning System for chest x-ray immage classification designed to automate data preparation, streamline model training, and reduce manual labeling effot. It provides a structured, scalable pipeline from raw data ingestion to automated decision-making, including dataset indexing, patient-aware splitting, preprocessing, conficuration management, and validation.
+
+The model uses convolutional neural networks to generate baseline diagnostic predictions across chest pathologies. Active learning strategies then identify the most informative unlabeled images for iterative retraining, improving performance while minimizing labeling cost.
 ## Team Members
 **CS 4850 - Section 02/03/04 - Fall 2025**\
 ![Team Members](readmefiles/Group_Members.png)
@@ -15,6 +17,7 @@ Active learning system for labeling medical chest x-rays to reduce manual annota
 Information about final project, amount of code, hours spent, status complete, and links to final report & presentation
 ## Artifacts
 - [Project Proposal](readmefiles/SP-104_ALS_Images-Proposal.pdf)
+  
 - [Project Plan](readmefiles/SP-104_ALS_Images-ProjectPlan.pdf)
 - [System Design Document](readmefiles/SP-104_ALS_Images-Design.pdf)
 - [System Requirements Specification](readmefiles/SP-104_ALS_Images-Requirements.pdf)
