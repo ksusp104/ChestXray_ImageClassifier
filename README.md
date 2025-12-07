@@ -25,11 +25,23 @@ Information about final project, amount of code, hours spent, status complete, a
 - [Software Test Plan and Report](readmefiles/SP-104_ALS_Images-STP-STR.pdf)
 ## Development Timeline
 - Gantt Chart
-- Milestones
+  
+- [Prototype Presentation - 2025 November 4th](readmefiles/SP-104_ALS_Images-Presentation.pdf)
 ## C-Day
 ![Poster Image](readmefiles/poster_image.png)\
 [C-Day Poster](readmefiles/ALS_CDay_Poster.pdf)
 ## Resources
+### Programming Language
+- [Python](https://www.python.org/)
+### Dependencies
+- [PyTorch](https://pytorch.org/)
+  
+- [NumPy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [PyArrow](https://arrow.apache.org/docs/python/install.html)
+- [tqdm](https://pypi.org/project/tqdm/)
+### Dataset
+- [NIH Chest X-Ray Dataset](https://www.kaggle.com/datasets/nih-chest-xrays/data/)
 ## Set-up and Execution
 In the GitHub repository, there are a total of six files that are essential to the overall functionality of the system. The files that need to be downloaded to the user’s system can be found in the “source code” folder within the repository. It is highly recommended to keep track of where these source code files are stored for easier configuration and troubleshooting.
 
