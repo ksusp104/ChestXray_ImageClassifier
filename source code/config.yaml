@@ -1,9 +1,10 @@
 paths:
   # path to root dataset 
   data_root: 'D:/School Files/School Notes/Fall 2025/CS 4850/Project Dataset/archive'
+  models: "./models"
   # output locations for generated index and split files
-  index_out: 'outputs/index_table.parquet'
-  splits_out: 'outputs/splits.json'
+  #index_out: 'outputs/index_table.parquet'
+  #splits_out: 'outputs/splits.json'
 
 data:
   # list of class names from the dataset
@@ -41,3 +42,8 @@ splits:
 
 # random seed for reproducibility
 seed: 42
+
+#
+train: 
+  lr: 1e-4
+  weight_decay: 1e-4
