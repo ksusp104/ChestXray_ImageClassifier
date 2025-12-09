@@ -14,18 +14,16 @@ The model uses convolutional neural networks to generate baseline diagnostic pre
 ### Advisor & Professor
 * Sharon Perry
 ## Final Report
-Information about final project, amount of code, hours spent, status complete, and links to final report & presentation
+- [Final Report](readmefiles/SP-104_ALS_Images-FinalReport.pdf)
 ## Artifacts
 - [Project Proposal](readmefiles/SP-104_ALS_Images-Proposal.pdf)
-  
 - [Project Plan](readmefiles/SP-104_ALS_Images-ProjectPlan.pdf)
 - [System Design Document](readmefiles/SP-104_ALS_Images-Design.pdf)
 - [System Requirements Specification](readmefiles/SP-104_ALS_Images-Requirements.pdf)
 - [Development Documentation](readmefiles/SP-104_ALS_Images-Development.pdf)
 - [Software Test Plan and Report](readmefiles/SP-104_ALS_Images-STP-STR.pdf)
+- 
 ## Development Timeline
-- Gantt Chart
-  
 - [Prototype Presentation - 2025 November 4th](readmefiles/SP-104_ALS_Images-Presentation.pdf)
 ## C-Day
 ![Poster Image](readmefiles/poster_image.png)\
@@ -35,7 +33,6 @@ Information about final project, amount of code, hours spent, status complete, a
 - [Python](https://www.python.org/)
 ### Dependencies
 - [PyTorch](https://pytorch.org/)
-  
 - [NumPy](https://numpy.org/)
 - [pandas](https://pandas.pydata.org/)
 - [PyArrow](https://arrow.apache.org/docs/python/install.html)
