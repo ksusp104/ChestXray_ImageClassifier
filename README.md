@@ -22,7 +22,6 @@ The model uses convolutional neural networks to generate baseline diagnostic pre
 - [System Requirements Specification](readmefiles/SP-104_ALS_Images-Requirements.pdf)
 - [Development Documentation](readmefiles/SP-104_ALS_Images-Development.pdf)
 - [Software Test Plan and Report](readmefiles/SP-104_ALS_Images-STP-STR.pdf)
-- 
 ## Development Timeline
 - [Prototype Presentation - 2025 November 4th](readmefiles/SP-104_ALS_Images-Presentation.pdf)
 ## C-Day
